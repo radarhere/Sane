@@ -1,4 +1,4 @@
-Python SANE module 2.9.1
+Python SANE module 2.9.2
 ========================
 
 .. image:: https://github.com/python-pillow/Sane/workflows/Test/badge.svg

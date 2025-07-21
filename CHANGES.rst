@@ -1,4 +1,16 @@
+Version 2.9.2
+-------------
+
+- sane.py:
+
+  - Silently ignore exception raised by device.cancel in SaneIterator.__del__ if device was already closed
+
+- Port to pyproject.toml
+- Added Python 3.10, 3.11, 3.12, 3.13
+
+
 Version 2.9.1
+-------------
 
 - _sane.c:
 
