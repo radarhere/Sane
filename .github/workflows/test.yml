@@ -36,6 +36,6 @@ jobs:
       - name: Lint
         shell: bash
         run: |
-          pip install pycodestyle pyflakes
+          python3 -m pip install pycodestyle pyflakes
           pycodestyle --statistics --count . || true
           pyflakes . | tee >(wc -l)
